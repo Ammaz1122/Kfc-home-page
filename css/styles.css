@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.content{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: auto; */
+    /* border: 4px solid yellow; */
+    
+}
+
+.left{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* padding: 1rem; */
+}
+
+.delivery{
+    /* margin: auto; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid #ea002a;
+    width: 55%;
+    height: 30px;
+    cursor: pointer;
+    background-color: #1C1816;
+    /* gap: 0.5rem; */
+    /* padding:19px; */
+    padding: 19px 20px;
+    border-radius: 5px;
+}
+
+.delivery .delivery-logo{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+
+}
+.delivery .txt-delivery h3{
+    margin-left: 5px;
+
+    /* padding: 0px 3px; */
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+
+/* Pick Up  */
+
+.pick-up{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid #ea002a; */
+    width: 55%;
+    height: 30px;
+    background-color: #1C1816;
+    /* gap: 0.5rem; */
+    /* padding:19px; */
+    padding: 19px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pick-up .pickup-logo{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+
+}
+.pick-up .txt-pickup h3{
+    margin-left: 5px;
+
+    /* padding: 0px 3px; */
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+.right{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.right .bucket{
+
+    margin-right: 10px;
+}
+
+.btn-login button{
+
+    background-color: red;
+    color: white;
+    width: 70px;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+    /* gap: 0.5rem; */
+    /* letter-spacing: 1px; */
+    
+}
+
+.image-burger{
+
+    /* width: 100vw; */
+    /* height: 500px; */
+    display: flex; 
+    justify-content: center;
+    /* border: 2px solid red;  */
+    /* background-size:; */
+}
+
+.image-burger img {
+    width: 100%; 
+    /* bac */
+}
+
+.btn-reorder{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 1px; */
+    /* border: 2px solid blue; */
+    background-color: #000000;
+    /* background-color: black; */
+
+}
+
+.btn-reorder button{
+
+    width: 600px;
+    height: 35px;
+    background-color: #ea002a;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+
